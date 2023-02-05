@@ -1,5 +1,4 @@
 const { defineConfig } = require("cypress");
-
 module.exports = defineConfig({
   e2e: {
     specPattern: [
@@ -12,18 +11,7 @@ module.exports = defineConfig({
     username: 'gperalta83.gp+1@gmail.com',
     password: "Spifftest1!",
     projectId: 1,
-    runId: 1,
+    runId:1
   }
-/* 
-reporter: 'salty-cypress-testrail-reporter',
- reporterOptions: {
-  domain: 'spifftest.testrail.io',
-  username: 'gperalta83.gp+1@gmail.com',
-  password: 'Spifftest1!',
-  projectId: 1,
-  suiteId: 1,
-  createTestRun: 'false'
-}
-*/
 });
 
